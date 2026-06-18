@@ -1,15 +1,31 @@
 {
-    "titel": "Stemwijzer Maker",
+    "titel": "Stemwijzer",
+    "stemwijzernaam": "Kaasverkiezingen 2026",
+    "stemwijzerbeschrijving": "Test je kazige voorkeur aan de hand van 6 stellingen",
     "stellingen": [
         {
-        "id": 1,
-        "stellingTitel": "Spawn Protection",
-        "stellingTekst": "Spawn protection moet de huidige grootte behouden"
+        "stellingTitel": "Kaas",
+        "stellingTekst": "Kaasproductie moet worden verdubbeld"
         },
         {
-        "id": 2,
-        "stellingTitel": "Munteenheid",
-        "stellingTekst": "Elke speler is vrij om zijn eigen valuta te maken"
+        "stellingTitel": "Kaassoorten",
+        "stellingTekst": "Het aantal kaassoorten moeten worden verbreed"
+        },
+        {
+        "stellingTitel": "Kaassoufflé",
+        "stellingTekst": "Kaassoufflé's moeten in elke winkel verkocht worden"
+        },
+        {
+        "stellingTitel": "Grondwetswijziging",
+        "stellingTekst": "Gevangene mogen geen kaas meer consumeren"
+        },
+        {
+        "stellingTitel": "'Neppe' kaas",
+        "stellingTekst": "Kazen die niet 95% bestaan uit melk, mogen nergens verkocht worden"
+        },
+        {
+        "stellingTitel": "Kaas verspilling",
+        "stellingTekst": "Kaas mag niet meer weggegooid worden, alles moet worden geconsumeerd"
         }
     ],
     "uitleg-partijen": ["het aantal cijfers bij meningen moet overeenkomen met het aantal stellingen.",
@@ -21,23 +37,23 @@
     "partijen": [
         {
             "naam": "Progressief Kaas",
-            "meningen": [0,2],
-            "kleur": "#50ab4f",
+            "meningen": [2,0,1,1,2,0],
+            "kleur": "#fcba03",
             "logo": "kaas.png",
             "score": 0
         },
         {
             "naam": "McJonalds Unie",
-            "meningen": [1,0],
-            "kleur": "#80bd2f",
+            "meningen": [2,2,0,2,2,2],
+            "kleur": "#c90a00",
             "logo": "mcjonalds.png",
             "score": 0
         },
         {
             "naam": "Gekkies Verenigd",
-            "meningen": [2,1],
-            "kleur": "#80bd2f",
-            "logo": "gekkiesver.png",
+            "meningen": [0,1,0,0,1,2],
+            "kleur": "#4f87ff",
+            "logo": "gekkiesverenigd.png",
             "score": 0
         }
     ]
