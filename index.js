@@ -10,10 +10,6 @@ let stellingTextDisplay = document.getElementById("standpuntText");
 let progressbarCurrentProgress = 1;
 let maxStellingen;
 
-// index.html texts
-let stemwijzerTitel = document.getElementById("stemwijzerNaam");
-let stemwijzerBeschrijving = document.getElementById("stemwijzerBeschrijving");
-
 // json file path
 const jsonPath = "/config.json";
 
@@ -21,6 +17,7 @@ let partijen;
 
 window.onload = async function() {
   await getConfig();
+
   progressbar.max = maxStellingen;
   progressbar.value = progressbarCurrentProgress;
 
@@ -38,10 +35,6 @@ async function getConfig() {
     maxStellingen = config.stellingen.length
     stellingen =  config.stellingen;
     partijen = config.partijen;
-
-    stemwijzerTitel.textContent = config.stemwijzernaam;
-    stemwijzerBeschrijving.textContent = config.stemwijzerbeschrijving;
-
 }
 
 function progressbarEvolve() {
